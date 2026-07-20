@@ -64,3 +64,16 @@ https://www.kaggle.com/code/kevinsotelog/bellabeat-data-analysis
 - Aprovechar la información generada por los dispositivos para ofrecer recomendaciones personalizadas que incrementen el compromiso de las usuarias.
 
 ## Vista previa del proyecto
+
+Correlation Between Steps and Calories
+
+![calories vs steps](images/calories_vs_steps.png)
+
+In the scatter plot below, we can observe a moderately positive correlation: the greater the number of steps taken, the higher the number of calories burned. 
+
+Average daily steps
+
+![steps per day](steps_per_day.png)
+
+The results indicate that Tuesday, Wednesday, and Saturday are the days on which users record the highest levels of physical activity, as the average number of steps on these days exceeds the overall mean. 
+
