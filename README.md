@@ -1,4 +1,4 @@
-# bellabeat_fitbit_data_nalysis
+# bellabeat_fitbit_data_analysis
 Proyecto de análisis de datos enfocado en identificar patrones de actividad física mediante datos recopilados por dispositivos Fitbit para generar recomendaciones de negocio para Bellabeat.
 
 ## Descripción del proyecto
@@ -65,15 +65,41 @@ https://www.kaggle.com/code/kevinsotelog/bellabeat-data-analysis
 
 ## Vista previa del proyecto
 
-Correlation Between Steps and Calories
+Correlación entre los pasos y las calorías
 
 ![calories vs steps](images/calories_vs_steps.png)
 
-In the scatter plot below, we can observe a moderately positive correlation: the greater the number of steps taken, the higher the number of calories burned. 
+En el siguiente gráfico de dispersión se puede observar una correlación positiva moderada: a medida que aumenta el número de pasos, también aumenta la cantidad de calorías quemadas.
 
-Average daily steps
+Promedio diario de pasos
 
-![steps per day](steps_per_day.png)
+![steps per day](images/steps_per_day.png)
 
-The results indicate that Tuesday, Wednesday, and Saturday are the days on which users record the highest levels of physical activity, as the average number of steps on these days exceeds the overall mean. 
+Los resultados indican que el martes, miércoles y sábado son los días en los que los usuarios registran los mayores niveles de actividad física, ya que el promedio de pasos en estos días supera la media general.
+
+Porcentaje del tiempo de actividad
+
+![activity level minutes](images/activity_level_in_minutes.png)
+
+El gráfico circular indica que los usuarios pasan la mayor parte del tiempo en un estado sedentario.
+
+Correlación entre los minutos de actividad por nivel y las calorías quemadas
+
+![correlation actitivity level-minutes](images/correlation_activity_level_minutes.png)
+
+El gráfico muestra una relación positiva entre la actividad física y las calorías quemadas.
+
+## Habilidades demostradas
+
+- Limpieza y transformación de datos con python.
+- Análisis exploratorio de datos (EDA).
+- Visualización de datos.
+- Interpretación de patrones y tendencias.
+- Elaboración de recomendaciones de negocio.
+
+## Como ejecutar el proyecto
+1. Descarga el notebook de este repositorio.
+2. Descarga el conjunto de datos desde Kaggle.
+3. Sube ambos archivos a un nuevo Notebook de Kaggle o ejecútalos en Jupyter Notebook.
+
 
