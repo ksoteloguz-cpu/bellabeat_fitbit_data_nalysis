@@ -12,6 +12,7 @@ Bellabeat aims to understand how people use smart devices in order to identify o
 ## Objectives
 
 General Objective: 
+
 Analyze Fitbit users’ physical activity habits to generate strategic recommendations that support Bellabeat’s decision-making.
 
 Specific Objectives:
