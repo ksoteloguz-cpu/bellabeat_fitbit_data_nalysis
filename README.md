@@ -1,41 +1,41 @@
 # bellabeat_fitbit_data_analysis
-Proyecto de análisis de datos enfocado en identificar patrones de actividad física mediante datos recopilados por dispositivos Fitbit para generar recomendaciones de negocio para Bellabeat.
+Data analysis project focused on identifying physical activity patterns using data collected from Fitbit devices to generate business recommendations for Bellabeat.
 
-## Descripción del proyecto
+## Project Description
 
-Este proyecto analiza los datos recopilados por dispositivos Fitbit con el objetivo de identificar patrones en la actividad física y los hábitos de los usuarios. Mediante técnicas de análisis exploratorio de datos (EDA), se estudian indicadores relacionados con la actividad diaria, el sueño y el gasto calórico para obtener información útil que apoye la estrategia de marketing de Bellabeat y el desarrollo de productos enfocados en el bienestar.
+This project analyzes data collected from Fitbit devices to identify patterns in users’ physical activity and habits. Through Exploratory Data Analysis (EDA) techniques, key indicators related to daily activity, sleep, and calorie expenditure are examined to generate valuable insights that can support Bellabeat’s marketing strategy and the development of wellness-focused products.
 
-## Problema de negocio
+## Business Problem
 
-Bellabeat busca comprender cómo las personas utilizan los dispositivos inteligentes para identificar oportunidades que permitan fortalecer su estrategia de marketing y promover un uso más constante de sus productos.
+Bellabeat aims to understand how people use smart devices in order to identify opportunities to strengthen its marketing strategy and encourage more consistent use of its products.
 
-## Objetivos
+## Objectives
 
-Objetivo general: Analizar los hábitos de actividad física de los usuarios de Fitbit para generar recomendaciones estratégicas que apoyen la toma de decisiones de Bellabeat.
+General Objective: Analyze Fitbit users’ physical activity habits to generate strategic recommendations that support Bellabeat’s decision-making.
 
-Objetivos especificos:
+Specific Objectives:
 
-- Analizar la actividad física diaria de los usuarios.
-- Identificar patrones de actividad a lo largo de la semana.
-- Examinar la relación entre el número de pasos diarios y las calorías quemadas.
-- Clasificar a los usuarios según sus niveles de actividad física.
-- Desarrollar recomendaciones de negocio basadas en los resultados obtenidos.
+- Analyze users’ daily physical activity.
+- Identify activity patterns throughout the week.
+- Examine the relationship between daily steps and calories burned.
+- Classify users based on their physical activity levels.
+- Develop business recommendations based on the findings.
 
-## Preguntas de negocio
+## Business Questions
 
-- ¿Cuáles son las tendencias actuales en el uso de dispositivos inteligentes para el seguimiento de la actividad física?
-- ¿Cómo pueden aplicarse estas tendencias a los productos y servicios de Bellabeat?
-- ¿Cómo pueden estos hallazgos fortalecer la estrategia de marketing de Bellabeat?
+- What are the current trends in the use of smart devices for tracking physical activity?
+- How can these trends be applied to Bellabeat’s products and services?
+- How can these findings strengthen Bellabeat’s marketing strategy?
 
-## Conjunto de datos
+## Dataset
 
-- Fuente: Fitbit Fitness Tracker Data (Kaggle).
-- Compartido por: Mobius.
-- Periodo de recolección: 12 de marzo al 12 de mayo de 2016.
-- Formato: 18 archivos CSV.
-- Licencia: CC0 (Dominio Público).
-  
-## Herramientas utilizadas
+- Source: Fitbit Fitness Tracker Data (Kaggle).
+- Shared by: Mobius.
+- Data collection period: March 12 to May 12, 2016.
+- Format: 18 CSV files.
+- License: CC0 (Public Domain).
+
+## Tools Used
 
 - Python
 - Pandas
@@ -44,62 +44,62 @@ Objetivos especificos:
 - Seaborn
 - Jupyter Notebook / Kaggle
 
-## Enlace al conjunto de datos
+## Dataset link
 
 https://www.kaggle.com/code/kevinsotelog/bellabeat-data-analysis
 
-## Principales hallazgos
+## Key Findings
 
-- Los usuarios presentan niveles de actividad física diferentes según el día de la semana.
-- La mayor parte del tiempo registrado corresponde a actividades sedentarias.
-- Existe una correlación positiva entre el número de pasos y las calorías quemadas.
-- Los minutos de actividad moderada e intensa también muestran una relación positiva con el gasto calórico.
-- Los resultados permiten comprender mejor los hábitos de actividad física de los usuarios y detectar oportunidades para incrementar el uso de dispositivos orientados al bienestar.
+- Users show different levels of physical activity depending on the day of the week.
+- Most of the recorded time corresponds to sedentary activities.
+- There is a positive correlation between the number of daily steps and calories burned.
+- Moderate and vigorous activity minutes also show a positive relationship with calorie expenditure.
+- The findings provide a better understanding of users' physical activity habits and help identify opportunities to increase the use of wellness-focused devices.
 
-## Recomendaciones de negocio
+## Business Recommendations
 
-- Promover el uso de los dispositivos Bellabeat como una herramienta para el bienestar diario y no únicamente para realizar ejercicio.
-- Implementar incentivos y recordatorios personalizados que motiven a las usuarias a mantenerse activas.
-- Desarrollar campañas dirigidas a personas con estilos de vida sedentarios para fomentar hábitos saludables.
-- Aprovechar la información generada por los dispositivos para ofrecer recomendaciones personalizadas que incrementen el compromiso de las usuarias.
+- Promote Bellabeat devices as tools for daily wellness, not just for exercise.
+- Implement personalized incentives and reminders to encourage users to stay active.
+- Develop campaigns targeting people with sedentary lifestyles to promote healthier habits.
+- Leverage data generated by the devices to provide personalized recommendations that increase user engagement.
+- 
+## Project Preview
 
-## Vista previa del proyecto
-
-Correlación entre los pasos y las calorías
+Correlation Between Steps and Calories
 
 ![calories vs steps](images/calories_vs_steps.png)
 
-En el siguiente gráfico de dispersión se puede observar una correlación positiva moderada: a medida que aumenta el número de pasos, también aumenta la cantidad de calorías quemadas.
+The following scatter plot shows a moderate positive correlation: as the number of steps increases, the number of calories burned also increases.
 
-Promedio diario de pasos
+Average Daily Steps
 
 ![steps per day](images/steps_per_day.png)
 
-Los resultados indican que el martes, miércoles y sábado son los días en los que los usuarios registran los mayores niveles de actividad física, ya que el promedio de pasos en estos días supera la media general.
+The results indicate that Tuesday, Wednesday, and Saturday are the days when users record the highest levels of physical activity, as the average number of steps on these days exceeds the overall average.
 
-Porcentaje del tiempo de actividad
+Percentage of Activity Time
 
 ![activity level minutes](images/activity_level_in_minutes.png)
 
-El gráfico circular indica que los usuarios pasan la mayor parte del tiempo en un estado sedentario.
+The pie chart indicates that users spend most of their time in a sedentary state.
 
-Correlación entre los minutos de actividad por nivel y las calorías quemadas
+Correlation Between Activity Minutes by Intensity Level and Calories Burned
 
 ![correlation actitivity level-minutes](images/correlation_activity_level_minutes.png)
 
-El gráfico muestra una relación positiva entre la actividad física y las calorías quemadas.
+The chart shows a positive relationship between physical activity and calories burned.
 
-## Habilidades demostradas
+## Skills Demonstrated
 
-- Limpieza y transformación de datos con python.
-- Análisis exploratorio de datos (EDA).
-- Visualización de datos.
-- Interpretación de patrones y tendencias.
-- Elaboración de recomendaciones de negocio.
+- Data cleaning and transformation using Python.
+- Exploratory Data Analysis (EDA).
+- Data visualization.
+- Interpretation of patterns and trends.
+- Development of business recommendations.
 
-## Como ejecutar el proyecto
-1. Descarga el notebook de este repositorio.
-2. Descarga el conjunto de datos desde Kaggle.
-3. Sube ambos archivos a un nuevo Notebook de Kaggle o ejecútalos en Jupyter Notebook.
+## How to Run the Project
 
+1. Download the notebook from this repository.
+2. Download the dataset from Kaggle.
+3. Upload both files to a new Kaggle Notebook or run them in Jupyter Notebook.
 
