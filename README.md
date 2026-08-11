@@ -3,7 +3,7 @@ Data analysis project focused on identifying physical activity patterns using da
 
 ## Project Description
 
-This project analyzes data collected from Fitbit devices to identify patterns in users’ physical activity and habits. Through Exploratory Data Analysis (EDA) techniques, key indicators related to daily activity, sleep, and calorie expenditure are examined to generate valuable insights that can support Bellabeat’s marketing strategy and the development of wellness-focused products.
+This project analyzes data collected from Fitbit devices to identify patterns in users physical activity and habits. Through Exploratory Data Analysis (EDA) techniques, key indicators related to daily activity, sleep, and calorie expenditure are examined to generate valuable insights that can support Bellabeat’s marketing strategy and the development of wellness-focused products.
 
 ## Business Problem
 
